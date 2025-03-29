@@ -1,18 +1,28 @@
 #pragma once
+#include <iostream>
+#include <cmath>
+using namespace std;
 class PHANSO
 {
 private:
-	int tu;
-	int mau;
+	int iTu;
+	int iMau;
 public:
 	void Nhap();
 	void Xuat();
 	void RutGon();
-	PHANSO Tong();
-	PHANSO Hieu();
-	PHANSO Tich();
-	PHANSO Thuong();
 	friend istream& operator>>(istream& is, PHANSO& ps);
 	friend ostream& operator<<(ostream& os, const PHANSO& ps);
+	PHANSO operator+(const PHANSO& ps) const;
+	PHANSO operator-(const PHANSO& ps) const;
+	PHANSO operator*(const PHANSO& ps) const;
+	PHANSO operator/(const PHANSO& ps) const;
+	PHANSO& operator=(const PHANSO& ps);
+	PHANSO Tong(const PHANSO& ps);
+	PHANSO Hieu(const PHANSO& ps);
+	PHANSO Tich(const PHANSO& ps);
+	PHANSO Thuong(const PHANSO& ps);
 };
+int UCLN(int a, int b);
+
 
