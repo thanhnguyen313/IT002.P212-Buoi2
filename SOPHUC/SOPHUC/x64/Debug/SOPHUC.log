@@ -1,4 +1,2 @@
-﻿  XuLySOPHUC.cpp
-C:\Users\totha\source\repos\IT002_Buoi2\SOPHUC\SOPHUC\XuLySOPHUC.cpp(63,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\totha\source\repos\IT002_Buoi2\SOPHUC\SOPHUC\XuLySOPHUC.cpp(64,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+﻿  SOPHUC.cpp
   SOPHUC.vcxproj -> C:\Users\totha\source\repos\IT002_Buoi2\SOPHUC\x64\Debug\SOPHUC.exe

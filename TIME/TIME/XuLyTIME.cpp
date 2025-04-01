@@ -11,14 +11,6 @@ ostream& operator<<(ostream& os, const TIME& time) {
     os << time.hour << " Gio " << time.minutes << " Phut " << time.second << " Giay ";
     return os;
 }
-bool TIME::operator>(const TIME& other) const //Toan tu so sanh thoi gian
-{
-    if (hour != other.hour)
-        return hour > other.hour;
-    if (minutes != other.minutes)
-        return minutes > other.minutes;
-    return second > other.second;
-}
 bool TIME::CheckTime() //Ham kiem tra xem thoi gian co hop le ko.
 {
     if (hour > 23 || hour < 0 || minutes > 59 || minutes < 0 || second > 59 || second < 0)
