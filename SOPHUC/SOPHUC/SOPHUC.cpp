@@ -28,16 +28,16 @@ int main()
 			return 0;
 		case 1:
 			sp1.Nhap();
-			cout << "\nPhan so ban vua nhap la: "; sp1.Xuat();
+			cout << "\nSo phuc ban vua nhap la: "; sp1.Xuat();
 			break;
 		case 2:
 			sp1.Nhap();
 			sp2.Nhap();
-			cout << "\nTong 2 phan so la: "; (sp1.Tong(sp2)).Xuat();
-			cout << "\nHieu 2 phan so la: "; (sp1.Hieu(sp2)).Xuat();
-			cout << "\nTich 2 phan so la: "; (sp1.Tich(sp2)).Xuat();
+			cout << "\nTong 2 so phuc la: "; (sp1.Tong(sp2)).Xuat();
+			cout << "\nHieu 2 so phuc la: "; (sp1.Hieu(sp2)).Xuat();
+			cout << "\nTich 2 so phuc la: "; (sp1.Tich(sp2)).Xuat();
 			cout << fixed << setprecision(2);
-			cout << "\nThuong 2 phan so la: "; (sp1.Thuong(sp2)).Xuat();
+			cout << "\nThuong 2 so phuc la: "; (sp1.Thuong(sp2)).Xuat();
 			break;
 		default:
 			break;

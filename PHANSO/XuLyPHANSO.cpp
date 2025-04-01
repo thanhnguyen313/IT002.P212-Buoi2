@@ -1,8 +1,6 @@
 #include"PHANSO.h"
 #include<iostream>
-
 using namespace std;
-
 istream& operator>>(istream& is, PHANSO& ps) 
 {
     cout << "\nNhap tu so: "; is >> ps.iTu;

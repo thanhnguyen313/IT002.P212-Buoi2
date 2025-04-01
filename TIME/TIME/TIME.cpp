@@ -3,10 +3,14 @@
 
 #include <iostream>
 #include "TIME.h"
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    TIME time;
+    time.Input();
+    time.Output();
+    time.addOneSecond(time);
 }
 
 
